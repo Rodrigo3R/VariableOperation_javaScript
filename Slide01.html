@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slide01</title>
+</head>
+<body>
+    <h1>Armazene um texto em uma variável e verifique seu tamanho </h1>
+    <script>
+        // slide 02
+        var texto = 'Meu texto'
+        document.write(texto + "<br>")
+        var tamanho = texto.length
+        document.write(`O tamanho do texto é de ${tamanho} dígitos` + '<br>')
+
+        //slide 03
+        var posição = texto.indexOf('te')
+        document.write(`A posição do texto te é ${posição} ` + `<br>`)
+        var posiLetra = texto.substring(2,3)
+        document.write(posiLetra + '<br>')
+        
+        //slide 04
+        var trecho = texto.substring(5,7)
+        var res = trecho.toUpperCase()
+        document.write(res + "<br>" )
+
+        //slide 05
+        var texto = window.prompt('Digite uma palavra')
+        document.write(texto + '<br>')
+        document.write(`O usuário digitou ${texto} <br>`)
+
+        //slide 06 
+        //exerc 01
+        var nome = window.prompt('Digite seu  nome')
+        //exerc 02
+        var tamanho = nome.length
+        document.write(`O usuário digitou ${nome} e o tamanho do seu nome é ${tamanho} letras <br>`)
+        //exerc 03
+        var trecho = nome.substring(2,4)
+        document.write(trecho + '<br>')
+        var posicao = nome.indexOf('dr')
+        document.write(posicao + '<br>')
+        var carac = nome.substring(3,7)
+        document.write(carac + '<br>')
+        var maiuscula = nome.toUpperCase()
+        document.write(maiuscula + '<br>')
+        //slide 08
+        var teste = 5
+        if(teste ==  4? true : false){
+            document.write()
+        }
+
+    </script>
+</body>
+</html>
